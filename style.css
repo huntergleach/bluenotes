@@ -18,27 +18,66 @@ body {
 
     }
 
-  nav {
-    text-align-last: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    color:coral
-  }
+   nav {
+    display: inline;
 
+    background-color: coral;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  
   body {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
   }
 
-  div {
+  section#about div{
+    background-color: darkcyan;
+    float: left;
     width: 50%;
     text-align: center;
-    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
     }
+
+  section#contact div {
+    background-color: darkcyan;
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+  }
 
   article {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #a article {
+    color: darkcyan;
+  }
+
+  section#About div {
+    text-align: center;
+    background-color: darkcyan;
+    margin: auto;
+    max-width: 800px;
+  }
+
+  section#Phone div {
+    text-align: center;
+    float: left;
+    size: 50%;
+  }
+
+  section#Email div {
+    text-align: center;
+    float: left;
+    size: 50%;
   }
