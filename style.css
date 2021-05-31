@@ -83,11 +83,11 @@ body {
   }
   
   section#phoneicon img {
-    align: left;
+    align-self: left;
   }
  
   section#emailicon img {
-    align: right;
+    align-self: right;
   }
 
  h2{
